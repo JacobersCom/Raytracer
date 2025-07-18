@@ -1,0 +1,25 @@
+07/08/25
+
+In main I created a simple ppm image render to start with. 
+
+So far I have add a Vector 3 file and a color file
+
+- The vector 3 file includes addition, subtraction, dot producted, cross product, scalar muliting and dividing, magnitude, and unit(normalizing) vectors!
+- The color class is used to simplify the main.cpp. Write color takes a ostream (output stream objects) and a const color (color is just a const vector). Here I get the values of x,y,z
+and translate the values into a byte range of [0,255], and write them out!
+
+So all that is done is main is looping over the image size and preforming scalar divison. The scalar is the iterator and the vector is the screen height and width. 
+Now we can call the method from color and it works!!!
+
+07/09/2025
+
+Today was a short day as I mainly studied graphics math and than learned a bit about cuda. I will be using cuda to make this raytracer faster, but for now we gotta finish it.
+
+I create the ray class. This will be the main class in the raytracer. At the moment it has one function and 2 memebers, which are origin and direction. To move the ray we use the 
+formula P(t) = A + (t)b this will move the position by t, but if t is postivtive we will only get a half way line so it must be a negtive number (this formula uses real numbers which
+includes 0).
+
+
+May have to remake the CmakeList....
+
+Taking a break from this topic as it is very heavy. Will come back to it later.

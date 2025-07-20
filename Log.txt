@@ -22,4 +22,10 @@ includes 0).
 
 May have to remake the CmakeList....
 
-Taking a break from this topic as it is very heavy. Will come back to it later.
+
+07/18/25
+
+After coming back and done being a bitch. I started the day by making a abstract hit class and a sphere class. With the goal in mind of cleaning up the main file.
+
+Now if you look in sphere.h you may be confused and ask "What is root". root is just the name of a value that is used to check wether or not the ray intersected with the sphere at a 
+vaild point.

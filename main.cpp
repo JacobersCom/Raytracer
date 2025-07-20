@@ -3,6 +3,7 @@
 #include "ray.h"
 #include "color.h"
 
+
 double hit_sphere(const point3& center, double radius, const ray& r) {
 	
 	vec3 cen_org = center - r.origin();
@@ -32,7 +33,6 @@ color RayColor(const ray& r) {
 	auto t = (hit_sphere(point3(0, 0, -1), 0.5, r));
 	if (t > 0.0) {
 		
-		//
 		vec3 N = UnitVector(r.at(t) - vec3(0, 0, -1));
 		return 0.5 * color(N.x() + 1, N.y() + 1, N.z() + 1);
 	}

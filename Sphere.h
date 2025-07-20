@@ -16,7 +16,7 @@ public:
 		auto h = dot(r.direction(), cen_org);
 		auto c = cen_org.magnitude() - radius * radius;
 		
-		//quaratic equation return reuslt
+		//quadratic equation return result
 		auto discriminant = h * h - a * c;
 
 		//At least one real solution
@@ -25,21 +25,29 @@ public:
 
 		auto sqtrd = std::sqrt(discriminant);
 
-		// first intercection. The nearest point
-		auto root = (h - sqtrd) / a;
+		// first intersection. The nearest point
+		auto intersect_point = (h - sqtrd) / a;
 		
-		//Is the point of intercection behind the camera or past the max distance. if so not vaild.
-		if (root <= ray_tmin || ray_tmax <= root) {
+		//Is the point of intersection behind the camera or past the max distance. if so not valid.
+		if (intersect_point <= ray_tmin || ray_tmax <= intersect_point) {
 			
-			//If the first intercection was not vaild try the next intercection point.
-			root = (h + sqtrd) / a;
-			if (root <= ray_tmin || ray_tmax <= root)	
+			//If the first intersection was not valid try the next intersection point.
+			intersect_point = (h + sqtrd) / a;
+			if (intersect_point <= ray_tmin || ray_tmax <= intersect_point)	
 				return false;
 		}
 
-		rec.t = root;
-		rec.p = r.at(rec.t);
-		rec.normal = (rec.p - center) / radius;
+		rec.t = intersect_point;
+		rec.intersect_point = r.at(rec.t);
+
+		//Creates a vector from the center of the sphere to the intersect_point 
+		vec3 outward_normal = (rec.intersect_point - center);
+
+		//Normalizes the outward vector
+		outward_normal = outward_normal / radius;
+
+		//Sets the normal face based on the dot product of the ray direction and the outward vector
+		rec.set_face_normal(r, outward_normal);
 
 		return true;
 	}

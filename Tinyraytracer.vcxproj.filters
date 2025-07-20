@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\src">
+      <UniqueIdentifier>{d46d8aea-2980-41ae-b2bb-0caae38964e3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Log.txt">
@@ -24,21 +27,24 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="vec3.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="color.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Ray.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\src</Filter>
     </ClInclude>
     <ClInclude Include="hittable.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>Header Files\src</Filter>
     </ClInclude>
     <ClInclude Include="Sphere.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="hittable_list.h">
+      <Filter>Header Files\src</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

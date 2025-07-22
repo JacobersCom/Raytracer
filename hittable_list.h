@@ -6,7 +6,7 @@
 #include <memory>
 #include <vector>
 
-class hittable_list : hittable {
+class hittable_list : public hittable {
 
 public:
 

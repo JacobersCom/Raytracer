@@ -9,6 +9,7 @@ public:
 
 	sphere(const point3& center, double radius) : center(center), radius(std::fmax(0, radius)){}
 
+	//Checks if the ray hit something and changes the vector to face outward point of intersection
 	bool hit(const ray& r, double ray_tmin, double ray_tmax, hit_record& rec) const override {
 
 		vec3 cen_org = center - r.origin();

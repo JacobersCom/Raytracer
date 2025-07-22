@@ -1,5 +1,7 @@
 # Raytracer
 
-This is my first graphics project. 
+This is my first graphics project!
 
-Is is currently in progress, as it only draws a sphere with a gradiant
+The goal of this project is to create a offline raytracer with shadowing and reflections.
+
+The current state of the project is unfinished.

@@ -5,6 +5,7 @@
 
 class hit_record {
 public:
+	
 	point3 intersect_point;
 	vec3 normal;
 	double t;

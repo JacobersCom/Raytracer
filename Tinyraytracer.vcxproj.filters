@@ -46,5 +46,8 @@
     <ClInclude Include="hittable_list.h">
       <Filter>Header Files\src</Filter>
     </ClInclude>
+    <ClInclude Include="Utilitys.h">
+      <Filter>Header Files\src</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

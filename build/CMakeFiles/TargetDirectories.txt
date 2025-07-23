@@ -1,3 +1,0 @@
-C:/Users/jacob/source/repos/Raytracer/build/CMakeFiles/Raytracer.dir
-C:/Users/jacob/source/repos/Raytracer/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/jacob/source/repos/Raytracer/build/CMakeFiles/ZERO_CHECK.dir

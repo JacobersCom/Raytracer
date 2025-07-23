@@ -14,7 +14,9 @@
 /CmakeFiles/
 /CmakeCache.txt
 cmake_install.cmake
+CMakeConfigureLog.yaml
 Makefile
+
 
 #extra files
 /Log.txt

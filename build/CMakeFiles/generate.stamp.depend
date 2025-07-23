@@ -18,8 +18,8 @@ C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExten
 C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Platform/Windows-MSVC.cmake
 C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Platform/Windows.cmake
 C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake
-D:/Grpahics_Projects/Raytracer/Raytracer/CMakeLists.txt
-D:/Grpahics_Projects/Raytracer/Raytracer/build/CMakeFiles/3.30.5-msvc23/CMakeCCompiler.cmake
-D:/Grpahics_Projects/Raytracer/Raytracer/build/CMakeFiles/3.30.5-msvc23/CMakeCXXCompiler.cmake
-D:/Grpahics_Projects/Raytracer/Raytracer/build/CMakeFiles/3.30.5-msvc23/CMakeRCCompiler.cmake
-D:/Grpahics_Projects/Raytracer/Raytracer/build/CMakeFiles/3.30.5-msvc23/CMakeSystem.cmake
+C:/Users/jacob/source/repos/Raytracer/CMakeLists.txt
+C:/Users/jacob/source/repos/Raytracer/build/CMakeFiles/3.30.5-msvc23/CMakeCCompiler.cmake
+C:/Users/jacob/source/repos/Raytracer/build/CMakeFiles/3.30.5-msvc23/CMakeCXXCompiler.cmake
+C:/Users/jacob/source/repos/Raytracer/build/CMakeFiles/3.30.5-msvc23/CMakeRCCompiler.cmake
+C:/Users/jacob/source/repos/Raytracer/build/CMakeFiles/3.30.5-msvc23/CMakeSystem.cmake
